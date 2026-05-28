@@ -9,20 +9,27 @@
   </head>
   <body>
     <section class="container">
-      <form action="#" method="#" id="login-form">
+      <form action="#" method="#" id="login-form" novalidate>
         <div class="input-group">
           <label for="personal_number">personal-number</label>
           <input
             type="number"
             id="personal_number"
             name="personl-number"
+            maxlength="11"
+            minlength="11"
             required
           />
           <span class="message"></span>
         </div>
         <div class="input-group">
-          <label for="mobil_number">mobil-number</label>
-          <input type="number" id="mobil_number" name="mobil-number" required />
+          <label for="mobile_number">mobil-number</label>
+          <input
+            type="number"
+            id="mobile_number"
+            name="mobil-number"
+            required
+          />
           <span class="message"></span>
         </div>
         <div class="input-group">
@@ -31,6 +38,7 @@
             type="text"
             id="job_description"
             name="job-description"
+            maxlength="50"
             required
           />
           <span class="message"></span>

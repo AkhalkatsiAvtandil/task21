@@ -31,3 +31,8 @@ button {
     outline-offset: 2px;
   } */
 }
+.message {
+  margin-bottom: 10px;
+  font-size: 27px;
+  color: red;
+}
