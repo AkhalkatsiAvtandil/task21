@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+}
+.input-group {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+input {
+  padding: 10px;
+  border: 2px solid aqua;
+  border-radius: 7px;
+}
+button {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: aquamarine;
+  color: green;
+  cursor: pointer;
+  font-size: 20px;
+
+  /* & :focus-visible {
+    outline: 2px solid red;
+    outline-offset: 2px;
+  } */
+}
