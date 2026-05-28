@@ -2,7 +2,7 @@ const personalnumberinput = document.querySelector("#personal_number");
 const mobilenumberinput = document.querySelector("#mobile_number");
 const loginForm = document.querySelector("#login-form");
 const personalnumberPattern = /^\d{11}$/;
-const mobilenumberPattern = /^\d{11}$/;
+const mobilenumberPattern = /^\d{9}$/;
 // personalnumberinput.addEventListener("input", (e) => {
 //   console.log(e.target.value);
 // });
@@ -61,6 +61,6 @@ loginForm.addEventListener("submit", (e) => {
   console.log("Form valid:", isformvalid);
   if (isformvalid) {
     console.log("Form submitted successfully");
-    // loginForm.submit()
+    //   loginForm.submit();
   }
 });
